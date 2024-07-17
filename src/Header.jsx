@@ -6,9 +6,9 @@ const Header = () => {
 
   return (
     <header className="  bg-white bg-opacity-25">
-      <div className="flex items-center justify-between p-4 ">
+      <div className="flex items-center justify-between p-2 sm:p-4 ">
         <div className="w-20">
-          <img src={logo} alt="Company Logo" className="rounded-full" />
+          <img src={logo} alt="Company Logo" className="size-16 rounded-full" />
         </div>
         <nav className="flex-1 mx-16 ">
           <ul className="hidden sm:flex justify-end gap-8 font-semibold font-navfont">

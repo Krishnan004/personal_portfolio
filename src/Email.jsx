@@ -34,8 +34,8 @@ export const Email = () => {
 
   return (
     <div className="relative h-screen p-6 sm:p-0">
-      <h1 className="absolute -top-5 left-10 text-6xl sm:text-9xl font-black opacity-10">CONTACT</h1>
-      <div className="h-12"></div>
+      <h1 className="absolute -top-5 sm:left-10 text-6xl sm:text-9xl font-black opacity-10">CONTACT</h1>
+      <div className="sm:h-12"></div>
       <form ref={form} onSubmit={sendEmail} className="border-2 border-black h-fit rounded-tl-2xl rounded-br-2xl flex flex-col gap-6 sm:w-1/2 bg-transparent p-6 sm:p-20 backdrop-blur-sm animate-visible drop-shadow-xl m-auto">
         <input type="email" placeholder="Email_id" name="from_email" className="border-b border-black bg-transparent" required />
         <input type="text" placeholder="Subject" name="from_subject" className="border-b border-black bg-transparent" required />

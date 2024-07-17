@@ -15,9 +15,9 @@ const TypingText = () => {
 const Home = () => {
   return (
     <div >
-    <div className="py-16 grid grid-cols-1 sm:grid-cols-2 sm:h-screen ">
+    <div className="sm:py-16 grid grid-cols-1 sm:grid-cols-2 sm:h-screen ">
       <div className="justify-self-center animate-page1">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 p-8 ">
         <h1 className="text-4xl sm:text-5xl">Hi</h1>
         <label className="text-4xl sm:text-5xl ">
           <TypingText />
@@ -25,7 +25,9 @@ const Home = () => {
         <p className="w-80 leading-loose">
         passionate web developer skilled in creating dynamic web applications. Ready to seize opportunities to empower myself and contribute innovative solutions.       </p>
         <div className="flex">
+        <a href="https://drive.google.com/file/d/1c0aWJ1AMaWDYZJAcYHrLmEia3HhIo5z5/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
         <button className="p-2 text-white bg-black rounded-xl animate-expand">Resume</button>
+        </a>
         </div>
         </div>
       </div>
