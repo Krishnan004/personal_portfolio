@@ -25,7 +25,7 @@ const projects = [
 
 const Project = () => {
     return (
-        <div className="relative sm:h-screen z-10 p-2  ">
+        <div className="relative sm:h-screen z-30 p-2  ">
         <h1 className="absolute -top-5  sm:left-10 text-6xl sm:text-9xl font-black opacity-10 ">PROJECT</h1>
         <div className="h-3 sm:h-12"></div>
         <div className="flex  overscroll-auto flex-wrap gap-4 p-2 sm:p-4 animate-appear sm:animate-page">

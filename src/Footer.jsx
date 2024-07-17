@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className=" sticky bottom-0 p-6 animate-visible sm:hidden z-20 ">
+        <div className=" sticky bottom-0 p-6 animate-visible sm:hidden z-40 ">
         <div className=" border rounded-full flex justify-around text-white bg-black text-xl p-4 ">
             <div>
                 <Link to="/">
