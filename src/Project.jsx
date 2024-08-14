@@ -18,7 +18,7 @@ const projects = [
         heading:"E-commerce",
         description: " enhancing user experience and business efficiency",
         stack:"React js Tailwind css Express js Mysql",
-        link: "https://github.com/Krishnan004/E-commerce"
+        link: "https://e-commerce-dev-web.netlify.app/"
     },
     // Add more project objects as needed
 ];
