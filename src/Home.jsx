@@ -25,7 +25,7 @@ const Home = () => {
         <p className="w-80 leading-loose">
         passionate web developer skilled in creating dynamic web applications. Ready to seize opportunities to empower myself and contribute innovative solutions.       </p>
         <div className="flex">
-        <a href="https://drive.google.com/file/d/1c0aWJ1AMaWDYZJAcYHrLmEia3HhIo5z5/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
+        <a href="https://drive.google.com/file/d/1m81XGvS7cEBC5KVm4JNIGmBf5OgfcH8z/view" target="_blank" rel="noopener noreferrer" >
         <button className="p-2 text-white bg-black rounded-xl animate-expand">Resume</button>
         </a>
         </div>
