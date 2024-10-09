@@ -1,6 +1,8 @@
 import React from 'react';
 import project1 from './images/image (2).png';
 import project2 from './images/Screenshot (69).png';
+import project3 from './images/Screenshot (93).png';
+
 import { SourceMapGenerator } from 'source-map-js';
 
 const projects = [
@@ -19,6 +21,14 @@ const projects = [
         description: " enhancing user experience and business efficiency",
         stack:"React js Tailwind css Express js Mysql",
         link: "https://e-commerce-dev-web.netlify.app/"
+    },
+    {
+        id:3,
+        img: project3,
+        heading:"E-commerce-admine",
+        description: " enhancing accessibility  and business efficiency",
+        stack:"React js Tailwind css Express js Mysql",
+        link: "https://e-panel.netlify.app/"
     },
     // Add more project objects as needed
 ];
