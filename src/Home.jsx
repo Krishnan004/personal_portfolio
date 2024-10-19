@@ -26,7 +26,7 @@ const Home = () => {
         passionate web developer skilled in creating dynamic web applications. Ready to seize opportunities to empower myself and contribute innovative solutions.       </p>
         <div className="flex">
         <a href="https://drive.google.com/file/d/1m81XGvS7cEBC5KVm4JNIGmBf5OgfcH8z/view" target="_blank" rel="noopener noreferrer" >
-        <button className="p-2 text-white bg-black rounded-xl animate-expand">Resume</button>
+        <button className="p-2 text-white bg-black rounded-xl animate-expand hover:animate-none">Resume</button>
         </a>
         </div>
         </div>

@@ -9,7 +9,7 @@ const Social = () => {
                 <a href="https://www.linkedin.com/in/krishnan-n-993939271/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="animate-appear transition delay-100" />
                 </a>
-                <FaInstagram className="animate-appear transition delay-75" />
+                {/* <FaInstagram className="animate-appear transition delay-75" /> */}
                 <a href="https://github.com/Krishnan004" target="_blank" rel="noopener noreferrer">
                 <FaGithub className="animate-appear" />
                 </a>

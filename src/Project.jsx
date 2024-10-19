@@ -40,12 +40,12 @@ const Project = () => {
         <div className="h-3 sm:h-12"></div>
         <div className="flex  overscroll-auto flex-wrap gap-4 p-2 sm:p-4 animate-appear sm:animate-page">
             {projects.map((project) => (
-                <div key={project.id} className="flex flex-col justify-around  border-2 w-80 rounded-tl-2xl rounded-br-2xl p-6 drop-shadow-xl bg-white/20  hover:scale-105 backdrop-blur-sm">
-                    <img src={project.img} className="h-32 w-full border-t rounded-xl" alt="Project"/>
+                <div key={project.id} className="flex flex-col justify-around  border-2 w-80 rounded-tl-2xl rounded-br-2xl p-6 drop-shadow-xl bg-white/20  hover:backdrop-blur-xl  ">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" >
+                    <img src={project.img} className="h-32 w-full border-t rounded-xl hover:scale-105" alt="Project"/>
                     <h1 className="font-semibold">{project.heading}</h1>
                     <p className="">{project.description}</p>
                     <p className="text-xs leading-loose">stack: {project.stack}</p>
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" >
                     <button className="p-2  bg-black rounded-xl text-xs text-white ">Project Link</button>
                     </a>
                 </div>
