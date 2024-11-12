@@ -10,7 +10,7 @@ const Career = () => {
             image_src: project1,
             name: "Spangles",
             role: "Web Developer",
-            duration: "MAY 20, 2024 - PRESENT",
+            duration: "MAY 20, 2024 - AUGUST 20, 2024",
             content1: "Creating interactive real-world websites for the technical department.",
             content2: "Focused on React.js, JavaScript, Tailwind CSS, Express.js, and MySQL.",
             content3: "Specializing in full-stack web development."
@@ -30,7 +30,7 @@ const Career = () => {
             image_src: project3,
             name: "Cybernaut",
             role: "Tech Trio program",
-            duration: "APRIL 1, 2024 - PRESENT",
+            duration: "-",
             content1: "Focusing on three core languages: C++, Java, and Python.",
             content2: "Enhancing proficiency in multiple programming paradigms.",
             content3: "Developing skills in object-oriented, procedural, and scripting techniques."

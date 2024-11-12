@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Contact = () => {
+
+    
     return (
         <div className="relative h-screen p-6 sm:p-0">
         <h1 className="absolute -top-5  left-10 text-6xl sm:text-9xl font-black opacity-10 ">CONTACT</h1>
