@@ -45,7 +45,11 @@ module.exports = {
         heightvisible:{
           'from':{height:"0%",opacity:'0'},
           'to':{height:"100%",opacity:'1'},
-        }
+        },
+        bgMove: {
+          '0%': { backgroundPosition: '0% 0%' },
+          '100%': { backgroundPosition: '100% 100%' },
+        },
       },
       animation:{
         typing:'typing 2s steps(20) 1s 1 normal  both,blink .5s step-end infinite alternate ',    
@@ -55,6 +59,7 @@ module.exports = {
         page1:'page1 1s ease-in-out alternate',
         appear: 'appear 1.5s linear ',
         heightvisible:'heightvisible 1.5s linear',
+        bgMove: 'bgMove 10s linear infinite',
       }
     },
     backgroundImage: {
