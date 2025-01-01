@@ -31,7 +31,7 @@ const projects = [
         link: "https://e-panel.netlify.app/"
     },
     {
-        id:3,
+        id:4,
         img: project4,
         heading:"Gemini clone",
         description: "clone with responsive design and interactive features",
@@ -47,7 +47,7 @@ const Project = () => {
         <div className="relative sm:h-screen z-30 p-2  ">
         <h1 className="absolute -top-5  sm:left-10 text-6xl sm:text-9xl font-black opacity-10 ">PROJECT</h1>
         <div className="h-3 sm:h-12"></div>
-        <div className="flex  overscroll-auto flex-nowrap gap-4 p-2 sm:p-4 animate-appear sm:animate-page">
+        <div className="flex  overscroll-auto flex-wrap sm:flex-nowrap gap-4 p-2 sm:p-4 animate-appear sm:animate-page">
             {projects.map((project) => (
                 <div key={project.id} className="flex flex-col justify-around  border-2 w-80 rounded-tl-2xl rounded-br-2xl p-6 drop-shadow-xl bg-white/20  hover:backdrop-blur-xl  ">
                     <a href={project.link} target="_blank" rel="noopener noreferrer" >
